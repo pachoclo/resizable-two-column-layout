@@ -1,5 +1,11 @@
 # Two Column Layout with resizable sidebar
 
+- React + TS + Vite
+- No libs
+- Vanilla CSS
+- Saves size to LocalStorage
+- Most likely some bugs
+
 ### 🕹️ Commands
 
 ```
