@@ -3,8 +3,10 @@
 - React + TS + Vite
 - No libs
 - Vanilla CSS
-- Saves size to LocalStorage
-- Most likely some bugs
+- Props for initial, min and max sidebar size
+- Saves / loads preferred size automatically to LocalStorage
+- Reset on double-click
+- Most likely [still has some bugs](https://github.com/pachoclo/resizable-two-column-layout/issues/new) 🤷‍♂️
 
 ### 🕹️ Commands
 
@@ -26,7 +28,7 @@ npm run preview
 
 ---
 
-### Structure
+### 🗂️ Structure
 
 ```zsh
 .
