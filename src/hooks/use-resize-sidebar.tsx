@@ -5,13 +5,10 @@ export function useResizeSidebar(
   min: number,
   max: number
 ) {
-  initialSize = loadStoredSize() ?? initialSize
-
   const [resizing, setResizing] = useState(false)
-  const [size, setSize] = useState(initialSize)
+  const [size, setSize] = useState(loadStoredSize() ?? initialSize)
 
   const startResizing: React.MouseEventHandler<HTMLDivElement> = (e) => {
-    e.preventDefault()
     !resizing && setResizing(true)
   }
 
@@ -29,7 +26,10 @@ export function useResizeSidebar(
     }
   }
 
-  const reset = () => setSize(initialSize)
+  const reset = () => {
+    setSize(initialSize)
+    saveStoredSize(initialSize)
+  }
 
   return {
     size,
