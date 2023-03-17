@@ -6,6 +6,8 @@
 - Saves size to LocalStorage
 - Most likely some bugs
 
+https://user-images.githubusercontent.com/3608140/225779202-48f9f5b9-afbc-4095-8327-75b7a251ec55.mov
+
 ### 🕹️ Commands
 
 ```
