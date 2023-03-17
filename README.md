@@ -8,7 +8,11 @@
 - Reset on double-click
 - Most likely [still has some bugs](https://github.com/pachoclo/resizable-two-column-layout/issues/new) 🤷‍♂️
 
-https://user-images.githubusercontent.com/3608140/225779202-48f9f5b9-afbc-4095-8327-75b7a251ec55.mov
+
+
+https://user-images.githubusercontent.com/3608140/225780795-4a9a9fa8-3969-443e-8fef-f18d271e1756.mov
+
+
 
 ### 🕹️ Commands
 
